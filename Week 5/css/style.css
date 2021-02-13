@@ -1,0 +1,83 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  min-height: 100vh;
+  background-color: #eeeeee;
+  background: url("../images/hearts3.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  overflow-x: hidden;
+}
+nav {
+  width: 100%;
+  top: 0;
+}
+.navbar {
+  min-height: 60px;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  font-family: "scifly";
+  font-size: small;
+  color: white;
+  text-transform: uppercase;
+}
+.navbar ul {
+  padding: 20px 0;
+}
+.navbar ul li {
+  display: inline;
+  padding: 5px;
+}
+a {
+  text-decoration: none;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.container {
+  min-width: 85%;
+  margin: auto;
+}
+
+.action {
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  transform: translate(-40%, -50%);
+}
+
+.btn-proceed {
+  width: 100%;
+  background: transparent;
+  border: 3px solid white;
+  border-radius: 50px;
+  color: white;
+  padding: 15px 50px;
+  text-transform: uppercase;
+  text-shadow: 0px 0px 5px #fff;
+  box-shadow: 0px 0px 10px #fff;
+  transition: 0.7s;
+  font-weight: 700;
+  font-family: "scifly";
+}
+
+.btn-proceed:hover {
+  background-color: #ffffff;
+  color: #111111;
+  font-size: 2rem;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+.footer {
+  background-color: #1d1d1d;
+  color: #fff;
+  min-height: 60px;
+  text-align: center;
+  padding: 10px;
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+}
